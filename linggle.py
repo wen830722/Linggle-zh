@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 import psycopg2
 from collections import Counter
-from lingglecmd import SELECT_CMD, LONGEST_LEN, expand_query
+from lingglecmd import expand_query
+
+
+SELECT_CMD = "SELECT results FROM cna WHERE query=%s;"
 
 
 class Linggle:

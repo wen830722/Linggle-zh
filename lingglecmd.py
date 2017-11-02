@@ -6,7 +6,6 @@ from synonym import Synonym
 
 
 LONGEST_LEN = 5
-SELECT_CMD = "SELECT results FROM cna WHERE query=%s;"
 # TODO: pron: Nh
 POS_WILDCARD_EN = {'v.': 'V.', 'n.': 'N.', 'adj.': 'A.', 'prep.': 'P.', 'det.': 'DET.', 'conj.': 'C.', 'pron.': 'pron.', 'adv.': 'ADV.'}
 posabbr = [ line.strip().split('\t')[0]+'.' for line in open('pos_list.txt') ]
