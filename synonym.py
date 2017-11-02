@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import psycopg2
-from collections import Counter
 
 
 SELECT_SYM_CMD = "SELECT similar_words FROM cna_sim WHERE word=%s;"
